@@ -33,13 +33,11 @@ export default class ClassLifecycle extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
       // Perform updates based on prop or state changes
       console.log("componentDidUpdate", prevProps, prevState, snapshot)
-
     }
   
     componentWillUnmount() {
       // Clean up tasks
       console.log("componentWillUnmount")
-
     }
   
     render() {
